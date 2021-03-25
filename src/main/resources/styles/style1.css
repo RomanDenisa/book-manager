@@ -1,0 +1,83 @@
+
+.anchor{
+    -fx-background-image: url('images/books.jpg')
+}
+
+.label {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 12;
+    -fx-text-fill: #fde8cd;
+    -fx-font-weight: bold;
+}
+
+.labelText{
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.table-view{
+    -fx-border-color: #eeb76b;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+}
+
+
+.table-row-cell{
+    -fx-background-color: #310b0b;
+    -fx-font-weight: bold;
+}
+
+.table-cell{
+    -fx-text-fill:#e2703a ;
+}
+
+.button {
+    -fx-text-fill: #eeb76b;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-background-color: #310b0b;
+    -fx-border-style: dotted solid;
+    -fx-border-color: #e2703a;
+    -fx-border-radius: 3px;
+    -fx-border-width: 3px;
+}
+
+.button:hover
+{
+    -fx-background-color: #9c3d54;
+}
+
+.table-row-cell:selected {
+    -fx-background-color:#9c3d54 ;
+
+}
+.table-row-cell:selected .text {
+    -fx-fill: #ffffff;
+}
+
+.table-view .column-header {
+    -fx-background-color: #310b0b;
+}
+
+.choice-box{
+    -fx-background-color: #310b0b;
+    -fx-text-fill: #310b0b;
+    -fx-mark-color: orange;
+}
+
+.choice-box .menu-item{
+    -fx-background-color: #310b0b;
+}
+
+.choice-box .menu-item:focused{
+    -fx-background-color: #9c3d54;
+}
+
+
+.date-cell {
+    -fx-background-color: #9c3d54;
+}
+
+.date-picker .label{
+    -fx-background-color: #9c3d54;
+}

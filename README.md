@@ -5,4 +5,4 @@ simple application that let's you keep track of book you're read over time
 
 -export list of books to pdf
 
--uses JavaFX, database connection, OOP concepts
+-uses Java, JavaFX, database connection, OOP concepts
